@@ -42,6 +42,9 @@ $(function(){
 	$('.userChange').click(function(){
 		actionBox($('.userChange-box'));
 	});
+	$('.introduceChange').click(function(){
+		actionBox($('.introduce-box'));
+	});
 	$('.close').click(function(){
 		if($('.comment').css('display')=='block'){
 			$('.comment').slideUp(300);
@@ -51,6 +54,8 @@ $(function(){
 			$('.tags-box').css('display','none');
 		}else if($('.userChange-box').css('display')=='flex'){
 			$('.userChange-box').css('display','none');
+		}else if($('.introduce-box').css('display')=='flex'){
+			$('.introduce-box').css('display','none');
 		}
 	});
 

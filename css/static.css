@@ -401,7 +401,7 @@ header .session-box a{
 .content .right-other .footer p{
 	padding: 3px 0;
 }
-.message-box,.tags-box,.userChange-box{
+.message-box,.tags-box,.userChange-box,.introduce-box{
 	display: none;
 	position: fixed;
 	width: 100%;
@@ -412,7 +412,7 @@ header .session-box a{
 	left: 0;
 	z-index: 9999;
 }
-.message-box p.close,.tags-box p.close,.userChange-box p.close{
+.message-box p.close,.tags-box p.close,.userChange-box p.close,.introduce-box p.close{
 	position: absolute;
 	right: 10px;
 	top: 5px;
@@ -420,27 +420,27 @@ header .session-box a{
 	color: #fff;
 	cursor: pointer;
 }
-.message-box>div,.tags-box>div,.userChange-box>div{
+.message-box>div,.tags-box>div,.userChange-box>div,.introduce-box>div{
 	width: 600px;
 	background-color: var(--basicBgColor);
 	padding: 40px;
 	border-radius: 3px;
 	box-shadow: 0 1px 5px var(--shadowColor);
 }
-.message-box>div h2,.tags-box>div h2,.userChange-box div h2{
+.message-box>div h2,.tags-box>div h2,.userChange-box div h2,.introduce-box div h2{
 	text-align: center;
 }
-.message-box>div form>div,.tags-box>div form>div,.userChange-box>div form>div{
+.message-box>div form>div,.tags-box>div form>div,.userChange-box>div form>div,.introduce-box>div form>div{
 	margin: 15px 0;
 }
-.message-box>div form input,.message-box>div form textarea,.tags-box>div form input,.tags-box>div form textarea,.userChange-box>div form input,.userChange-box>div form textarea{
+.message-box>div form input,.message-box>div form textarea,.tags-box>div form input,.tags-box>div form textarea,.userChange-box>div form input,.userChange-box>div form textarea,.introduce-box>div form input,.introduce-box>div form textarea{
 	width: 100%;
 	padding: 10px;
 	font-size: 1rem;
 	border: 1px solid #ddd;
 	border-radius: 5px;
 }
-.message-box>div form textarea,.tags-box>div form textarea,.userChange-box>div form textarea{
+.message-box>div form textarea,.tags-box>div form textarea,.userChange-box>div form textarea,.introduce-box>div form textarea{
 	height: 200px;
 }
 
