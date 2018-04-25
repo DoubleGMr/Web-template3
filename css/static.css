@@ -697,6 +697,38 @@ header .session-box a{
 	text-transform: uppercase;
 	font-size: 1.4rem;
 }
+.post-create form>div{
+	padding: 10px 20px;
+}
+.post-create input[type="text"],.post-create textarea,.post-create select{
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ddd;
+	font-size: 1rem;
+	border-radius: 2px;
+}
+.post-create input[type="checkbox"]{
+	width: auto;
+	-webkit-appearance: checkbox;
+	   -moz-appearance: checkbox;
+	        appearance: checkbox;
+}
+.post-create textarea{
+	height: 400px;
+}
+.post-create input[type="submit"]{
+	width: 100%;
+	font-size: 1rem;
+}
+.post-create select{
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+	        appearance: none;
+	background: url(../img/down.png) no-repeat 97% 50%;
+	cursor: pointer;
+	outline: none;
+	color: #777;
+}
 
 
 @media screen and (max-width: 1280px){
